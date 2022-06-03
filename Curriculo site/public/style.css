@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-sizing:border-box;
+}
+
+.navbar{
+    background-color: #100c2a;
+    height:65px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a{
+    color: #f1f1f1;
+    float: left;
+    text-align: center;
+    padding: 18px;
+    font-size: 18px;
+    
+}
+
+.navbar a:hover{
+    color: #6362D4;
+}
+
+.active {
+    background-color: #173766;
+    border-radius: 50px;
+  }
+.bg-slider{
+    background-color: #100c2a;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bg-slider img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bg-slider .text{
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+}
+
+.bg-slider h1{
+    margin-bottom: 20px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.informacoes{
+    width: 500px;
+    margin-left: 50px;
+    
+}
+
+.informacoes p{
+    text-align:justify;
+}
+
+.informacoes h2{
+    text-align:center;
+    margin-bottom:30px
+}
+
+.habilidades{
+
+    justify-content: center;
+    
+}
+
+.titulo-branco{
+    color: #f1f1f1;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.competencias{
+    margin-top: 60px;
+    padding: 40px 0 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #173766;
+}
+
+.conteudoCompetencias{
+    max-width: 400px;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+
+
